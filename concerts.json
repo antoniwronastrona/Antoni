@@ -12,5 +12,12 @@
     "monthYear": "MAJ 2026",
     "name": "L. v. Beethoven - Koncert potrójny C-dur, Op. 56 | Dubiel | Niedziółka",
     "place": "Filharmonia Narodowa, Warszawa"
+  },
+  {
+    "id": 3,
+    "day": "25",
+    "monthYear": "MAJ 2026",
+    "name": "Muzyka Bułgarska | Janusz",
+    "place": "Sala Koncertowa UMFC"
   }
 ]
