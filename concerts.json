@@ -1,30 +1,23 @@
 [
   {
-    "id": 1,
-    "day": "15",
-    "monthYear": "MAR 2026",
-    "name": "Wieczór Chopinowski",
-    "place": "Filharmonia Narodowa — Warszawa"
-  },
-  {
     "id": 2,
     "day": "02",
     "monthYear": "APR 2026",
     "name": "Muzyka bez granic",
-    "place": "Centrum Kongresowe — Kraków"
+    "place": "Centrum Kongresowe â KrakÃ³w"
   },
   {
     "id": 3,
     "day": "20",
     "monthYear": "MAY 2026",
-    "name": "Solo — Intymnie",
-    "place": "Stara Fabryka — Łódź"
+    "name": "Solo â Intymnie",
+    "place": "Stara Fabryka â ÅÃ³dÅº"
   },
   {
     "id": 4,
     "day": "07",
     "monthYear": "JUN 2026",
     "name": "Summer Jazz Festival",
-    "place": "Amfiteatr Leśny — Sopot"
+    "place": "Amfiteatr LeÅny â Sopot"
   }
 ]
