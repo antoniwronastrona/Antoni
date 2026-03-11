@@ -54,5 +54,12 @@
     "monthYear": "WRZ 2026",
     "name": "Chopin - muzyka kameralna | Świgut | Staszel",
     "place": "Antonin"
+  },
+  {
+    "id": 9,
+    "day": "10",
+    "monthYear": "GRU 2026",
+    "name": "Wajnberg/Chopin | Chrzęszczyk",
+    "place": "Tbc"
   }
 ]
