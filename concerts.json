@@ -1,23 +1,23 @@
 [
   {
+    "id": 3,
+    "day": "20",
+    "monthYear": "MAY 2026",
+    "name": "Solo Ã¢ÂÂ Intymnie",
+    "place": "Stara Fabryka Ã¢ÂÂ ÃÂÃÂ³dÃÂº"
+  },
+  {
     "id": 2,
     "day": "02",
     "monthYear": "APR 2026",
     "name": "Muzyka bez granic",
-    "place": "Centrum Kongresowe â KrakÃ³w"
-  },
-  {
-    "id": 3,
-    "day": "20",
-    "monthYear": "MAY 2026",
-    "name": "Solo â Intymnie",
-    "place": "Stara Fabryka â ÅÃ³dÅº"
+    "place": "Centrum Kongresowe Ã¢ÂÂ KrakÃÂ³w"
   },
   {
     "id": 4,
     "day": "07",
     "monthYear": "JUN 2026",
     "name": "Summer Jazz Festival",
-    "place": "Amfiteatr LeÅny â Sopot"
+    "place": "Amfiteatr LeÃÂny Ã¢ÂÂ Sopot"
   }
 ]
