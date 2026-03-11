@@ -40,5 +40,12 @@
     "monthYear": "LIP 2026",
     "name": "Trio | Stanienda | Żołnacz",
     "place": "Wrocław"
+  },
+  {
+    "id": 7,
+    "day": "11",
+    "monthYear": "WRZ 2026",
+    "name": "L. v. Beethoven - Koncert potrójny C-dur, Op. 56 Filharmonia Łódzka | Dubiel | Olszewski",
+    "place": "Filharmonia Łódzka, Sala Koncertowa, Łódź"
   }
 ]
