@@ -26,5 +26,12 @@
     "monthYear": "MAJ 2026",
     "name": "Poranek dla młodych",
     "place": "Filharmonia Narodowa, Sala Kameralna, Warszawa"
+  },
+  {
+    "id": 5,
+    "day": "12",
+    "monthYear": "CZE 2026",
+    "name": "P. Czajkowski - Wariacje Rokoko Op. 33 | Grzybowski | Filharmonia Narodowa",
+    "place": "Filharmonia Narodowa, Sala Koncertowa, Warszawa"
   }
 ]
