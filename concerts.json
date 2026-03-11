@@ -19,5 +19,12 @@
     "monthYear": "MAJ 2026",
     "name": "Muzyka Bułgarska | Janusz",
     "place": "Sala Koncertowa UMFC, Warszawa"
+  },
+  {
+    "id": 4,
+    "day": "31",
+    "monthYear": "MAJ 2026",
+    "name": "Poranek dla młodych",
+    "place": "Filharmonia Narodowa, Sala Kameralna, Warszawa"
   }
 ]
