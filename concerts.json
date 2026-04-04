@@ -4,27 +4,27 @@
     "day": "11",
     "monthYear": "APR 2026",
     "name": "Bacewicz/Skoryk/Wajnberg",
-    "place": "Dom Kultury Śródmieście, Smolna 9, Warszawa"
+    "place": "Dom Kultury ÅrÃ³dmieÅcie, Smolna 9, Warszawa"
   },
   {
     "id": 2,
     "day": "16",
     "monthYear": "MAJ 2026",
-    "name": "L. v. Beethoven - Koncert potrójny C-dur, Op. 56 Sinfonia Juventus | Dubiel | Niedziółka",
+    "name": "L. v. Beethoven - Koncert potrÃ³jny C-dur, Op. 56 Sinfonia Juventus | Dubiel | NiedziÃ³Åka",
     "place": "Filharmonia Narodowa, Sala Koncertowa, Warszawa"
   },
   {
     "id": 3,
     "day": "25",
     "monthYear": "MAJ 2026",
-    "name": "Muzyka Bułgarska | Janusz",
+    "name": "Muzyka BuÅgarska | Janusz",
     "place": "Sala Koncertowa UMFC, Warszawa"
   },
   {
     "id": 4,
     "day": "31",
     "monthYear": "MAJ 2026",
-    "name": "Poranek dla młodych",
+    "name": "Poranek dla mÅodych",
     "place": "Filharmonia Narodowa, Sala Kameralna, Warszawa"
   },
   {
@@ -38,28 +38,35 @@
     "id": 6,
     "day": "01",
     "monthYear": "LIP 2026",
-    "name": "Trio | Stanienda | Żołnacz",
-    "place": "Wrocław"
+    "name": "Trio | Stanienda | Å»oÅnacz",
+    "place": "WrocÅaw"
   },
   {
     "id": 7,
     "day": "11",
     "monthYear": "WRZ 2026",
-    "name": "L. v. Beethoven - Koncert potrójny C-dur, Op. 56 Filharmonia Łódzka | Dubiel | Olszewski",
-    "place": "Filharmonia Łódzka, Sala Koncertowa, Łódź"
+    "name": "L. v. Beethoven - Koncert potrÃ³jny C-dur, Op. 56 Filharmonia ÅÃ³dzka | Dubiel | Olszewski",
+    "place": "Filharmonia ÅÃ³dzka, Sala Koncertowa, ÅÃ³dÅº"
   },
   {
     "id": 8,
     "day": "19",
     "monthYear": "WRZ 2026",
-    "name": "Chopin - muzyka kameralna | Świgut | Staszel",
+    "name": "Chopin - muzyka kameralna | Åwigut | Staszel",
     "place": "Antonin"
   },
   {
     "id": 9,
     "day": "10",
     "monthYear": "GRU 2026",
-    "name": "Wajnberg/Chopin | Chrzęszczyk",
+    "name": "Wajnberg/Chopin | ChrzÄszczyk",
     "place": "Tbc"
+  },
+  {
+    "id": 10,
+    "day": "04",
+    "monthYear": "MAR 2026",
+    "name": "gramy w ligę",
+    "place": "Garaż"
   }
 ]
