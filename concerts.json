@@ -4,27 +4,27 @@
     "day": "11",
     "monthYear": "APR 2026",
     "name": "Bacewicz/Skoryk/Wajnberg",
-    "place": "Dom Kultury ÃÂrÃÂ³dmieÃÂcie, Smolna 9, Warszawa"
+    "place": "Dom Kultury Śródmieście, Smolna 9, Warszawa"
   },
   {
     "id": 2,
     "day": "16",
     "monthYear": "MAJ 2026",
-    "name": "L. v. Beethoven - Koncert potrÃ³jny C-dur, Op. 56 Sinfonia Juventus | Dubiel | NiedziÃ³Åka",
+    "name": "L. v. Beethoven - Koncert potrÃ³jny C-dur, Op. 56 Sinfonia Juventus | Dubiel | Niedziółka",
     "place": "Filharmonia Narodowa, Sala Koncertowa, Warszawa"
   },
   {
     "id": 3,
     "day": "25",
     "monthYear": "MAJ 2026",
-    "name": "Muzyka BuÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂgarska | Janusz",
+    "name": "Muzyka Bułgarska | Janusz",
     "place": "Sala Koncertowa UMFC, Warszawa"
   },
   {
     "id": 4,
     "day": "31",
     "monthYear": "MAJ 2026",
-    "name": "Poranek dla mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂodych",
+    "name": "Poranek dla młodych",
     "place": "Filharmonia Narodowa, Sala Kameralna, Warszawa"
   },
   {
@@ -38,15 +38,15 @@
     "id": 6,
     "day": "01",
     "monthYear": "LIP 2026",
-    "name": "Trio | Stanienda | ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»oÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂnacz",
-    "place": "WrocÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂaw"
+    "name": "Trio | Stanienda | Żołnacz",
+    "place": "Wrocław"
   },
   {
     "id": 7,
     "day": "11",
     "monthYear": "WRZ 2026",
-    "name": "L. v. Beethoven - Koncert potrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³jny C-dur, Op. 56 Filharmonia ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³dzka | Dubiel | Olszewski",
-    "place": "Filharmonia ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³dzka, Sala Koncertowa, ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂº"
+    "name": "L. v. Beethoven - Koncert potrójny C-dur, Op. 56 Filharmonia Łódzka | Dubiel | Olszewski",
+    "place": "Filharmonia Łódzka, Sala Koncertowa, Łódź"
   },
   {
     "id": 8,
