@@ -171,13 +171,78 @@
         background: linear-gradient(to bottom, transparent, var(--gold));
         transform: translateX(-50%);
       }
+      .download-zip-btn {
+        display: inline-block;
+        padding: 14px 22px;
+        background: linear-gradient(135deg, #000, #333);
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 10px;
+        transition: 0.3s ease;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      }
+      /* slider container */
+      .slider {
+        position: relative;
+        width: 100%;
+        max-width: 700px;
+        overflow: hidden;
+      }
+
+      /* track */
+      .slider-track {
+        display: flex;
+        transition: transform 0.4s ease;
+      }
+
+      /* zdjęcia */
+      .slider-track img {
+        min-width: 100%;
+        height: 400px;
+        object-fit: contain; /* 🔥 kluczowe – nie ucina zdjęć */
+        background: #000;
+      }
+
+      /* przyciski */
+      .slider-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: #fff;
+        font-size: 24px;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 2;
+        border-radius: 6px;
+      }
+
+      .slider-btn.prev {
+        left: 10px;
+      }
+      .slider-btn.next {
+        right: 10px;
+      }
+
+      /* mobile */
+      @media (max-width: 600px) {
+        .slider-track img {
+          height: 250px;
+        }
+      }
+
+      .download-zip-btn:hover {
+        transform: scale(1.05);
+        background: linear-gradient(135deg, #111, #444);
+      }
 
       /* HOME */
       #home {
         background:
           linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.8)),
-          url("home1.webp")
-            center/cover no-repeat;
+          url("home1.webp") center/cover no-repeat;
         text-align: center;
       }
       #home::before {
@@ -278,7 +343,9 @@
         padding-right: 2rem;
       }
       .concert-day {
-        font-family: "Roboto", Sans Serif;
+        font-family:
+          "Roboto",
+          Sans Serif;
         font-size: 2.8rem;
         font-weight: 300;
         line-height: 1;
@@ -668,13 +735,13 @@
     <section id="biografia">
       <div class="bio-grid">
         <div class="bio-photo reveal">
-         <img
-  src="cvphoto.webp"
-  alt="Antoni Wrona"
-  width="400"
-  height="600"
-  style="object-fit: cover;"
-/>
+          <img
+            src="cvphoto.webp"
+            alt="Antoni Wrona"
+            width="400"
+            height="600"
+            style="object-fit: cover"
+          />
         </div>
         <div class="bio-text reveal">
           <p class="section-label">Historia</p>
@@ -686,25 +753,29 @@
           </h2>
           <div class="divider" style="margin: 0 0 1.8rem"></div>
           <p>
-            Antoni Wrona — Wiolonczelista, wiolonczelista, solista i kameralista oraz student Uniwersytetu
-Muzycznego im. Franciszka Liszta w Weimarze pod kierunkiem prof. Wolfganga Emanuela
-Schmidta oraz Uniwersytetu Muzycznego Fryderyka Chopina w Warszawie, w klasach prof. dr.
-hab. Tomasza Strahla i prof. dr. hab. Marcina Zdunika. W 2025 roku został stypendystą
-programu „Elite” w Paryżu, w ramach którego kształci się pod okiem prof. Henriego
-Demarquette’a.
+            Antoni Wrona — Wiolonczelista, wiolonczelista, solista i kameralista
+            oraz student Uniwersytetu Muzycznego im. Franciszka Liszta w
+            Weimarze pod kierunkiem prof. Wolfganga Emanuela Schmidta oraz
+            Uniwersytetu Muzycznego Fryderyka Chopina w Warszawie, w klasach
+            prof. dr. hab. Tomasza Strahla i prof. dr. hab. Marcina Zdunika. W
+            2025 roku został stypendystą programu „Elite” w Paryżu, w ramach
+            którego kształci się pod okiem prof. Henriego Demarquette’a.
           </p>
           <p>
-            Jest m. in. laureatem I nagrody na XV Międzynarodowym Konkursie Muzycznym im.
-Michała Spisaka (2025), II nagrody na XXII Międzynarodowym Konkursie Kameralnym
-imienia Kiejstuta Bacewicza w Łodzi w duecie z Aleksandrą Janusz (2025), III nagrody na XII
-Międzynarodowym Konkursie Wiolonczelowym imienia Witolda Lutosławskiego w Warszawie
-(2024), zwycięzcą XI Ogólnopolskiego Konkursu Wiolonczelowego im. Dezyderiusza
-Danczowskiego w Poznaniu (2023) oraz XII Międzynarodowego Konkursu Wiolonczelowego
-im. Jana Vychytil’a w Pradze (2018).
+            Jest m. in. laureatem I nagrody na XV Międzynarodowym Konkursie
+            Muzycznym im. Michała Spisaka (2025), II nagrody na XXII
+            Międzynarodowym Konkursie Kameralnym imienia Kiejstuta Bacewicza w
+            Łodzi w duecie z Aleksandrą Janusz (2025), III nagrody na XII
+            Międzynarodowym Konkursie Wiolonczelowym imienia Witolda
+            Lutosławskiego w Warszawie (2024), zwycięzcą XI Ogólnopolskiego
+            Konkursu Wiolonczelowego im. Dezyderiusza Danczowskiego w Poznaniu
+            (2023) oraz XII Międzynarodowego Konkursu Wiolonczelowego im. Jana
+            Vychytil’a w Pradze (2018).
           </p>
           <p>
-            Wyróżniony nominacjami do nagrody „Koryfeusz Muzyki Polskiej 2024” w kategorii
-Odkrycie Roku oraz do „Paszportów Polityki” w 2025 roku w kategorii Muzyka Poważna.
+            Wyróżniony nominacjami do nagrody „Koryfeusz Muzyki Polskiej 2024” w
+            kategorii Odkrycie Roku oraz do „Paszportów Polityki” w 2025 roku w
+            kategorii Muzyka Poważna.
           </p>
         </div>
       </div>
@@ -714,78 +785,123 @@ Odkrycie Roku oraz do „Paszportów Polityki” w 2025 roku w kategorii Muzyka 
       <p class="section-label reveal">Dyskografia</p>
       <h2 class="section-title reveal">Nagrania</h2>
       <div class="divider reveal"></div>
+
       <div class="albums-grid reveal">
         <div class="album-card">
-          <img
-            src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&q=80"
-            alt="Album 1"
-          />
+          <iframe
+            width="100%"
+            height="250"
+            src="www.youtube.com/watch?v=GmJ4GZr66v4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+            "
+            allowfullscreen
+          ></iframe>
           <div class="album-overlay">
             <div class="album-year">2024</div>
-            <div class="album-title"></div>
+            <div class="album-title">Nagranie 1</div>
           </div>
         </div>
+
         <div class="album-card">
-          <img
-            src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=400&q=80"
-            alt="Album 2"
-          />
+          <iframe
+            width="100%"
+            height="250"
+            src="https://www.youtube.com/watch?v=tdn3T-cIrns"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+            "
+            allowfullscreen
+          ></iframe>
           <div class="album-overlay">
-            <div class="album-year">2022</div>
-            <div class="album-title"></div>
-          </div>
-        </div>
-        <div class="album-card">
-          <img
-            src="https://images.unsplash.com/photo-1524230572899-a752b3835840?w=400&q=80"
-            alt="Album 3"
-          />
-          <div class="album-overlay">
-            <div class="album-year">2020</div>
-            <div class="album-title"></div>
+            <div class="album-year">2023</div>
+            <div class="album-title">Nagranie 2</div>
           </div>
         </div>
       </div>
     </section>
 
+    <!--  href="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoWronaZdjecia.zip"  -->
+
     <section id="media">
       <p class="section-label reveal">Galeria & Wideo</p>
       <h2 class="section-title reveal">Media</h2>
       <div class="divider reveal"></div>
-      <div class="media-grid reveal">
-        <div class="media-item">
-          <img
-            src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=600&q=80"
-            alt=""
-          />
-          <div class="play-icon">▶</div>
-          <div class="media-caption"></div>
-        </div>
-        <div class="media-item">
-          <img
-            src="https://images.unsplash.com/photo-1481090244810-9c149e0f3b73?w=600&q=80"
-            alt=""
-          />
-          <div class="play-icon">▶</div>
-          <div class="media-caption"></div>
-        </div>
-        <div class="media-item">
-          <img
-            src="https://images.unsplash.com/photo-1526142684086-7ebd69df27a5?w=600&q=80"
-            alt=""
-          />
-          <div class="play-icon">▶</div>
-          <div class="media-caption"></div>
-        </div>
-        <div class="media-item">
-          <img
-            src="https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=600&q=80"
-            alt=""
-          />
-          <div class="play-icon">▶</div>
-          <div class="media-caption">
-            
+
+      <div
+        class="media-grid reveal"
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 30px;
+          padding: 40px 0;
+        "
+      >
+        <!-- PRZYCISK ZIP -->
+        <a
+          href="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoWronaZdjecia.zip"
+          class="download-zip-btn"
+          target="_blank"
+        >
+          Pobierz wszystkie zdjęcia (ZIP)
+        </a>
+
+        <!-- SLIDER -->
+        <div class="slider">
+          <button class="slider-btn prev">&#10094;</button>
+
+          <div class="slider-track">
+            <img
+              src="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoniWrona10.JPG"
+            />
+            <img
+              src="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoniWrona12.jpg"
+            />
+            <img
+              src="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoniWrona13.jpg"
+            />
+            <img
+              src="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoniWrona14.jpg"
+            />
+            <img
+              src="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoniWrona15.jpg"
+            />
+            <img
+              src="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoniWrona17.JPG"
+            />
+            <img
+              src="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoniWrona18.JPG"
+            />
+            <img
+              src="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoniWrona19.jpg"
+            />
+            <img
+              src="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoniWrona20.jpg"
+            />
+            <img
+              src="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoniWrona21.JPG"
+            />
+            <img
+              src="https://raw.githubusercontent.com/antoniwronastrona/Antoni/main/AntoniWrona22.JPG"
+            />
           </div>
+
+          <button class="slider-btn next">&#10095;</button>
         </div>
       </div>
     </section>
@@ -845,6 +961,27 @@ Odkrycie Roku oraz do „Paszportów Polityki” w 2025 roku w kategorii Muzyka 
             '<p class="no-concerts">Nie udało się załadować harmonogramu.</p>';
         }
       }
+
+      const track = document.querySelector(".slider-track");
+      const slides = document.querySelectorAll(".slider-track img");
+      const nextBtn = document.querySelector(".next");
+      const prevBtn = document.querySelector(".prev");
+
+      let index = 0;
+
+      function updateSlider() {
+        track.style.transform = `translateX(-${index * 100}%)`;
+      }
+
+      nextBtn.addEventListener("click", () => {
+        index = (index + 1) % slides.length;
+        updateSlider();
+      });
+
+      prevBtn.addEventListener("click", () => {
+        index = (index - 1 + slides.length) % slides.length;
+        updateSlider();
+      });
 
       function renderConcerts(concerts, container) {
         if (!concerts || !concerts.length) {
